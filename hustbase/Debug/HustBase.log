@@ -1,0 +1,235 @@
+﻿Build started 2020/1/6 13:41:00.
+     1>Project "C:\Users\xiao\Desktop\hustbase\HustBase.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\HustBase.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\HustBase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\HustBase.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\HustBase.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt DBTest.cpp EditArea.cpp HustBase.cpp HustBaseDoc.cpp HustBaseView.cpp IX_Manager.cpp MainFrm.cpp PF_Manager.cpp QU_Manager.cpp RM_Manager.cpp SYS_Manager.cpp TableList.cpp TreeList.cpp
+         TreeList.cpp
+         TableList.cpp
+         SYS_Manager.cpp
+     1>c:\users\xiao\desktop\hustbase\sys_manager.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\sys_manager.cpp(54): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\sys_manager.cpp(290): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\xiao\desktop\hustbase\sys_manager.cpp(295): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\xiao\desktop\hustbase\sys_manager.cpp(361): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\sys_manager.cpp(368): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         RM_Manager.cpp
+     1>c:\users\xiao\desktop\hustbase\rm_manager.cpp(18): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\xiao\desktop\hustbase\rm_manager.cpp(38): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\xiao\desktop\hustbase\rm_manager.cpp(281): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\xiao\desktop\hustbase\rm_manager.cpp(292): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\xiao\desktop\hustbase\rm_manager.cpp(277): warning C4101: 'tmp' : unreferenced local variable
+         QU_Manager.cpp
+         PF_Manager.cpp
+     1>c:\users\xiao\desktop\hustbase\pf_manager.cpp(24): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(240) : see declaration of '_open'
+     1>c:\users\xiao\desktop\hustbase\pf_manager.cpp(28): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(312) : see declaration of 'open'
+     1>c:\users\xiao\desktop\hustbase\pf_manager.cpp(60): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(240) : see declaration of '_open'
+     1>c:\users\xiao\desktop\hustbase\pf_manager.cpp(203): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(313) : see declaration of 'read'
+     1>c:\users\xiao\desktop\hustbase\pf_manager.cpp(217): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\xiao\desktop\hustbase\pf_manager.cpp(218): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\xiao\desktop\hustbase\pf_manager.cpp(227): warning C4018: '<=' : signed/unsigned mismatch
+         MainFrm.cpp
+         IX_Manager.cpp
+         HustBaseView.cpp
+         HustBaseDoc.cpp
+         HustBase.cpp
+     1>c:\users\xiao\desktop\hustbase\hustbase.cpp(69): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : see declaration of 'CWinApp::Enable3dControls'
+     1>c:\users\xiao\desktop\hustbase\hustbase.cpp(228): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         EditArea.cpp
+     1>c:\users\xiao\desktop\hustbase\editarea.cpp(121): warning C4101: 'rc' : unreferenced local variable
+     1>c:\users\xiao\desktop\hustbase\editarea.cpp(226): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\editarea.cpp(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         DBTest.cpp
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(89): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(145): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(191): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(192): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(193): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(237): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(137): warning C4101: 'lpszCurDir' : unreferenced local variable
+     1>c:\users\xiao\desktop\hustbase\dbtest.cpp(138): warning C4101: 'tchBuffer' : unreferenced local variable
+         Generating Code...
+     1>c:\users\xiao\desktop\hustbase\hustbasedoc.cpp(50): warning C4700: uninitialized local variable 'pos' used
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt lex.yy.c parse.c yacc_sql.tab.c
+         yacc_sql.tab.c
+     1>yacc_sql.tab.c(363): warning C4273: 'malloc' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(600) : see previous definition of 'malloc'
+     1>yacc_sql.tab.c(370): warning C4273: 'free' : inconsistent dll linkage
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(599) : see previous definition of 'free'
+     1>yacc_sql.y(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>yacc_sql.y(172): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>yacc_sql.y(237): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         parse.c
+     1>c:\users\xiao\desktop\hustbase\parse.c(85): warning C4013: 'yy_switch_to_buffer' undefined; assuming extern returning int
+     1>c:\users\xiao\desktop\hustbase\parse.c(85): warning C4013: 'yy_scan_string' undefined; assuming extern returning int
+         lex.yy.c
+     1>lex_sql.l(27): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(28): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(32): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(33): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(34): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(35): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(36): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(37): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(38): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(39): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(40): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(41): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(42): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(43): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(44): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(45): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(46): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(47): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(48): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(49): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(50): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(51): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(52): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(53): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(54): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(55): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(57): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(58): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(59): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(60): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(61): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(62): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(63): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex_sql.l(64): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>lex.yy.c(1500): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(723) : see declaration of 'fileno'
+     1>lex.yy.c(1694): warning C4013: 'exit' undefined; assuming extern returning int
+     1>lex.yy.c(1757): warning C4013: 'malloc' undefined; assuming extern returning int
+     1>lex.yy.c(1775): warning C4013: 'realloc' undefined; assuming extern returning int
+     1>lex.yy.c(1785): warning C4013: 'free' undefined; assuming extern returning int
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo"Debug\HustBase.res" HustBase.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HustBase.dll.embed.manifest.res" Debug\HustBase_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\HustBase.dll" /INCREMENTAL /NOLOGO /DEF:"HustBase.def" /MANIFEST /ManifestFile:"Debug\HustBase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\xiao\Desktop\hustbase\Debug\HustBase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\HustBase.lib" /MACHINE:X86 /DLL Debug\HustBase.res
+         Debug\HustBase.dll.embed.manifest.res
+         .\Debug\DBTest.obj
+         .\Debug\EditArea.obj
+         .\Debug\HustBase.obj
+         .\Debug\HustBaseDoc.obj
+         .\Debug\HustBaseView.obj
+         .\Debug\IX_Manager.obj
+         .\Debug\lex.yy.obj
+         .\Debug\MainFrm.obj
+         .\Debug\parse.obj
+         .\Debug\PF_Manager.obj
+         .\Debug\QU_Manager.obj
+         .\Debug\RM_Manager.obj
+         .\Debug\StdAfx.obj
+         .\Debug\SYS_Manager.obj
+         .\Debug\TableList.obj
+         .\Debug\TreeList.obj
+         .\Debug\yacc_sql.tab.obj
+            Creating library Debug\HustBase.lib and object Debug\HustBase.exp
+       Manifest:
+         Deleting file "Debug\HustBase.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\HustBase.dll.embed.manifest" /manifest Debug\HustBase.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HustBase.dll.embed.manifest.res" Debug\HustBase_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\HustBase.dll" /INCREMENTAL /NOLOGO /DEF:"HustBase.def" /MANIFEST /ManifestFile:"Debug\HustBase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\xiao\Desktop\hustbase\Debug\HustBase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\HustBase.lib" /MACHINE:X86 /DLL Debug\HustBase.res
+         Debug\HustBase.dll.embed.manifest.res
+         .\Debug\DBTest.obj
+         .\Debug\EditArea.obj
+         .\Debug\HustBase.obj
+         .\Debug\HustBaseDoc.obj
+         .\Debug\HustBaseView.obj
+         .\Debug\IX_Manager.obj
+         .\Debug\lex.yy.obj
+         .\Debug\MainFrm.obj
+         .\Debug\parse.obj
+         .\Debug\PF_Manager.obj
+         .\Debug\QU_Manager.obj
+         .\Debug\RM_Manager.obj
+         .\Debug\StdAfx.obj
+         .\Debug\SYS_Manager.obj
+         .\Debug\TableList.obj
+         .\Debug\TreeList.obj
+         .\Debug\yacc_sql.tab.obj
+         HustBase.vcxproj -> C:\Users\xiao\Desktop\hustbase\Debug\HustBase.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\HustBase.bsc" Debug\DBTest.sbr Debug\EditArea.sbr Debug\HustBase.sbr Debug\HustBaseDoc.sbr Debug\HustBaseView.sbr Debug\IX_Manager.sbr Debug\lex.yy.sbr Debug\MainFrm.sbr Debug\parse.sbr Debug\PF_Manager.sbr Debug\QU_Manager.sbr Debug\RM_Manager.sbr Debug\StdAfx.sbr Debug\SYS_Manager.sbr Debug\TableList.sbr Debug\TreeList.sbr Debug\yacc_sql.tab.sbr
+       FinalizeBuildStatus:
+         Deleting file "Debug\HustBase.unsuccessfulbuild".
+         Touching "Debug\HustBase.lastbuildstate".
+     1>Done Building Project "C:\Users\xiao\Desktop\hustbase\HustBase.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:27.01
